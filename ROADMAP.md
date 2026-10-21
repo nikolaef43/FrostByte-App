@@ -1,8 +1,8 @@
 # FrostByte public roadmap
 
-**Updated September 13, 2026.** This page describes product direction, not a release schedule. The [download page](https://blackfrostai.com/frostbyte#get-beta) is the source for available builds. Beta.16 is open to everyone after accepting the beta terms, with no invite code or account. Planned work can change as beta feedback reveals what matters most.
+**Updated October 20, 2026.** This page describes product direction, not a release schedule. The [download page](https://blackfrostai.com/frostbyte#downloads) is the source for available builds. FrostByte 1.0.0 Community is open to everyone, with no invite code or account. Planned work can change as feedback reveals what matters most.
 
-## Available in the documented beta
+## Available in the current release
 
 | Area | Current behavior |
 | --- | --- |
@@ -13,7 +13,7 @@
 | Updates and feedback | Manual/optional update checks, reviewed feedback, and separate optional connection diagnostics. |
 | AEON Orbit | A space theme available to everyone, with device-specific console links on compatible connected Raspberry Pi devices. The combined Pi image is paused and is not included. |
 
-The [user guide](https://blackfrostai.com/frostbyte/guide) describes prerequisites and limits. IPFS is a separate transfer source; this beta does not combine HF, BitTorrent and IPFS blocks into one download. Current availability does not imply compatibility with every machine or network configuration.
+The [user guide](https://blackfrostai.com/frostbyte/guide) describes prerequisites and limits. IPFS is a separate transfer source; this release does not combine HF, BitTorrent and IPFS blocks into one download. Current availability does not imply compatibility with every machine or network configuration.
 
 ## Current focus
 
@@ -35,6 +35,6 @@ That direction includes:
 - Reviewed submissions and filters that help people choose compatible files.
 - Honest availability information, with reporting, correction, and removal tools.
 
-**A public model/torrent index is not implemented in the current beta.** This feedback repository is not a listing service or a place to upload model files. Local inventory, device connections, and private/gated repositories should not silently become public listings.
+**A public model/torrent index is not implemented in the current release.** This feedback repository is not a listing service or a place to upload model files. Local inventory, device connections, and private/gated repositories should not silently become public listings.
 
 Share workflows and design ideas through a [feature request](https://github.com/Blackfrost-AI/FrostByte-App/issues/new?template=02-feature-request.yml). Decisions about multi-device hybrid pooling, additional platform targets, and other capabilities will be made separately; they are not implied by the directory idea.

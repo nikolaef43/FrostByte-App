@@ -11,7 +11,7 @@ If you cannot use that route, contact [support@blackfrostai.com](mailto:support@
 - The impact you observed, with sensitive information removed.
 - Any conditions needed to understand the issue, using only systems and test data you are authorized to use.
 
-The current release listed on the [official download page](https://blackfrostai.com/frostbyte#get-beta) is the primary maintenance target. Reports affecting older builds are welcome; include the exact version. Do not retry a potentially harmful action against another person's device, data, or production service to complete a report.
+The current release listed on the [official download page](https://blackfrostai.com/frostbyte#downloads) is the primary maintenance target. Reports affecting older builds are welcome; include the exact version. Do not retry a potentially harmful action against another person's device, data, or production service to complete a report.
 
 Please coordinate sensitive details privately while maintainers investigate. Public disclosure timing is discussed case by case. This policy does not establish a paid bug bounty, a response-time guarantee, or authorization to test third-party systems.
 

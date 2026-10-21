@@ -8,20 +8,21 @@ Hugging Face models, torrents, IPFS collections, and your own devices — in one
 
 ## Download FrostByte
 
-**Current release: 0.3.0 (public beta).** This update adds recoverable, protected
-local publisher identities, AEON-compatible publisher signatures, and refinements
-to the AEON Orbit theme. A consistent release process binds both installers to
-one source revision and verified checksums.
+**Current release: 1.0.0 (Community).** The Blackfrost release adds the official
+Blackfrost theme, bulk model management, device detail dashboards, and opt-in LAN
+and WireGuard overlay discovery. FrostByte 1.0 has no app analytics or automatic
+diagnostic reports. Six release files are authenticated by a GPG-signed checksum
+list.
 
-### [Download for Mac and Windows →](https://blackfrostai.com/frostbyte#get-beta)
+### [Download for Mac, Windows and Linux →](https://blackfrostai.com/frostbyte#downloads)
 
-**The public beta is open. No invite code, account or email is required.** Accept the beta terms on the official FrostByte website, then choose your download. The download desk includes installation instructions, signing status, and checksums.
+**Downloads are open. No invite code, account or email is required.** Choose your platform on the official FrostByte website — there is no website acceptance checkbox and no download-session cookie. The download desk includes installation instructions, signing status, and checksums.
 
 [User guide](https://blackfrostai.com/frostbyte/guide) · [Report a bug](https://github.com/Blackfrost-AI/FrostByte-App/issues/new?template=01-bug-report.yml) · [Request a feature](https://github.com/Blackfrost-AI/FrostByte-App/issues/new?template=02-feature-request.yml) · [Browse feedback](https://github.com/Blackfrost-AI/FrostByte-App/issues)
 
 **Find FrostByte useful? Star this repository** to bookmark the app and show your support. Follow [Blackfrost_AI on GitHub](https://github.com/Blackfrost-AI) and [@blackfrost_ai on X](https://x.com/blackfrost_ai) for news. Need private help? [support@blackfrostai.com](mailto:support@blackfrostai.com).
 
-This is FrostByte’s public product and community page: download links, documentation, and feedback in Issues. FrostByte is proprietary beta software; application source is maintained separately in a private repository. Installers are supplied through the website, with third-party licenses preserved.
+This is FrostByte’s public product and community page: download links, documentation, and feedback in Issues. FrostByte Community 1.0 is licensed under Apache-2.0, which applies to the software distributed with it; third-party components keep their own licenses. Application source is maintained separately in a private repository and is not yet published. Installers are supplied through the website, with third-party licenses preserved.
 
 ## Start here
 
@@ -94,9 +95,9 @@ image remains paused and is not included in this desktop release.
 [See the AEON interface](https://blackfrostai.com/frostbyte/guide#aeon); its Pi
 connection pictures are clearly labeled demonstrations.
 
-Beta.16 also includes the beta.15 security, native confirmation, grouped resume
-and recovery improvements. Optional diagnostics remain off by default, and the
-updated app and website notices describe IPFS networking and storage.
+FrostByte 1.0 also includes the earlier security, native confirmation, grouped resume
+and recovery improvements. It has no app analytics or automatic diagnostic reports,
+and the updated app and website notices describe IPFS networking and storage.
 
 ### Optional publisher identity
 
@@ -109,25 +110,26 @@ not publish your files or a community listing; Frost-Net discovery remains plann
 
 ## Install and get started
 
-The navigation described here follows **0.3.0**. Check the [official download desk](https://blackfrostai.com/frostbyte#get-beta) for the current build, supported targets, signing status, and installation instructions.
+The navigation described here follows **1.0.0**. Check the [official download desk](https://blackfrostai.com/frostbyte#downloads) for the current build, supported targets, signing status, and installation instructions.
 
-| Role | Current beta support | What to know |
+| Role | Current support | What to know |
 | --- | --- | --- |
-| Desktop app on Mac | Apple silicon / ARM64 | DMG and app ZIP are available from the official website after accepting the beta terms. |
+| Desktop app on Mac | Apple silicon / ARM64 | DMG and app ZIP are available from the official website. No invitation or account is needed. |
 | Desktop app on Windows | Windows x64 | Per-user setup EXE and app ZIP are available. Setup preserves existing torrent/magnet defaults. |
+| Desktop app on Linux | Linux x64 | AppImage or Debian package. A supported sandbox and a libsecret-compatible keyring are required. |
 | Optional remote Mac | Apple silicon or Intel | Requires SSH / Remote Login, Python 3, and an awake Mac with the companion account logged in. No Docker or Frigid is required. |
 | Optional remote DGX device | Supported Linux ARM64 or x64 host | Requires SSH, Python 3, and Docker usable by the companion account. |
 
-The documented beta is ad-hoc signed and not notarized on Mac; Windows packages are unsigned. Review the installation notice before downloading. Intel Mac and Windows ARM64 **desktop installers** are not part of this beta. A remote companion's platform support is separate from the desktop installer targets.
+The Mac app is Developer ID signed but not notarized by Apple; Windows packages are not Authenticode signed. Review the installation notice before downloading. Intel Mac and Windows ARM64 **desktop installers** are not part of this release. A remote companion's platform support is separate from the desktop installer targets.
 
-1. Accept the beta terms and download your build from [blackfrostai.com/frostbyte](https://blackfrostai.com/frostbyte#get-beta). No invite code or account is needed.
-2. Install it and review the first-launch beta terms. Optional diagnostics are a separate choice and start off.
+1. Download your build from [blackfrostai.com/frostbyte](https://blackfrostai.com/frostbyte#downloads). No invite code or account is needed.
+2. Install it and review the first-launch terms. Acceptance is stored locally until those documents change. FrostByte 1.0 has no app analytics or automatic diagnostic reports.
 3. Start with a small download: use **HuggingFace**, **Transfers → Add download** for a torrent or magnet, or **Transfers → IPFS** for a CID.
 4. Review the file selection and choose one destination. To use a remote computer, add it through **Devices** first.
 5. Follow progress in **Transfers**. Look for completed files in **My Models** or **Torrents**.
 6. Choose whether to share an item. Use **Settings → Updates → Check now** to check for a newer release; installation remains your choice.
 
-Beta.16 was packaged before public access opened on September 13. Its bundled notices still contain older private-beta wording. The [current website terms](https://blackfrostai.com/frostbyte/terms#agreement) authorize public beta access and supersede those invitation restrictions for official website downloads. The app remains proprietary, and optional diagnostics remain a separate choice.
+FrostByte Community 1.0 is licensed under Apache-2.0, with third-party notices preserved. Application source is maintained separately in a private repository and is not yet published; community source publication is upcoming.
 
 The [illustrated user guide](https://blackfrostai.com/frostbyte/guide) covers file selection, external storage, companion setup, bandwidth, sharing, installation, and troubleshooting in detail. [SUPPORT.md](SUPPORT.md) has quick answers for common situations.
 
@@ -170,15 +172,15 @@ We prioritize impact, reliability, accessibility, and the information available 
 
 The current focus is reliable downloads, useful inventory, and people hosting files on their own machines. The next product direction is a community directory for legally redistributed open models, with provenance, license information, and explicit publishing controls.
 
-That public index is **not available in the current beta**. Enabling sharing or posting feedback here does not submit your inventory to a directory. Read the [public roadmap](ROADMAP.md) and use feature requests to help shape the work.
+That public index is **not available in the current release**. Enabling sharing or posting feedback here does not submit your inventory to a directory. Read the [public roadmap](ROADMAP.md) and use feature requests to help shape the work.
 
 ## Privacy, conduct, and project status
 
-Optional in-app diagnostics focus on app and connection health and exclude search terms, model names, filenames, file contents, paths, torrent hashes, and credentials. Hardware details are not included in those reports. Manual feedback contains what you review and choose to send. GitHub submissions are a separate, public channel subject to GitHub's own service and privacy practices.
+Optional in-app diagnostics are not part of FrostByte 1.0; the app has no analytics or automatic diagnostic reports. Manual feedback contains what you review and choose to send. GitHub submissions are a separate, public channel subject to GitHub's own service and privacy practices.
 
 Please follow the [community guidelines](CODE_OF_CONDUCT.md). For a suspected vulnerability, use [private security reporting](SECURITY.md). For a private support matter, [contact support](mailto:support@blackfrostai.com) without sending credentials.
 
-FrostByte remains proprietary beta software. Public beta access does not grant access to application source or permission to redistribute the proprietary app. Share the official download page or this repository. Third-party components retain their respective licenses. The official [beta terms](https://blackfrostai.com/frostbyte/terms) and [privacy notice](https://blackfrostai.com/frostbyte/privacy) describe the current app and service policies.
+FrostByte Community 1.0 is licensed under Apache-2.0. The license applies to the software distributed with this release; third-party components retain their respective licenses. Application source is maintained separately in a private repository and is not yet published, so downloading does not currently grant access to application source. Share the official download page or this repository. The official [license and terms](https://blackfrostai.com/frostbyte/terms) and [privacy notice](https://blackfrostai.com/frostbyte/privacy) describe the current app and service policies.
 
 ---
 
